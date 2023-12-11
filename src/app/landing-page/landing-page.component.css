@@ -1,0 +1,80 @@
+
+:host {
+    display: block;
+    width: 100%;
+    background: linear-gradient(to right, #dcdcfa, #cfe6fa);
+    overflow: hidden;
+}
+
+.row h1 {
+    /* border: 1px solid #ddd; */
+    font-size: 150px;
+    color: orange;
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+}
+
+.row div h6 {
+    margin-top: 90px;
+
+    font-size: 50px;
+    
+
+}
+
+.card:hover {
+    transform: translate(0px, -15px);
+    box-shadow: 10px 10px 20px rgb(233, 245, 249);
+}
+
+
+
+.card {
+    width: 18rem;
+    margin: 20px;
+}
+
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  .footer h3 {
+    color: #fff;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons i {
+    font-size: 2rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icons i:hover {
+    color: #f8c400; 
+  }
+  
+ 
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+ 
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
